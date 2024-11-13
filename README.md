@@ -6,10 +6,12 @@ This repository contains code for data augmentation based on multiparametric mod
 ## Dataset 
 
 The real data used for training the augmentation models, as well as for the baseline models, are available at [3]. The lung cancer segmentation dataset comprises CT images paired with corresponding lung cancer masks, meticulously labeled by radiologists according to the Lung-RADS System. This dataset is a fusion of original Kazakhstani local data from the Kazakh Research Institute of Oncology and Radiology, and the openly available LIDC-IDRI dataset [4], which has been re-labeled. The entire dataset has been divided into training and testing sets, with the training set consisting of 708 CT images and the test set containing 264 CT images. All images share a standardized labeling format: 
-•	label1 – class according to Lung-RADS System 
-•	mask – binary mask of lung cancer area
-•	hu_array_old – CT image converted standardized in Hounsfield Units
-•	hu_array – CT image with dropped non-lung area via thresholding-based algorithm
+<ul>
+  <li>label1 – class according to Lung-RADS System</li>
+  <li>mask – binary mask of lung cancer area</li>
+  <li>hu_array_old – CT image converted standardized in Hounsfield Units</li>
+  <li>hu_array – CT image with dropped non-lung area via thresholding-based algorithm</li>
+</ul>
 
 ## VQVAE 
 
@@ -18,14 +20,16 @@ The Vector Quantized Variational Autoencoder (VQVAE) [2] is a generative model t
 - [VQVAE Implementation by Misha Laskin](https://github.com/MishaLaskin/vqvae/tree/master)
 - [PyTorch VQVAE by Zalando Research](https://github.com/zalandoresearch/pytorch-vq-vae/blob/master/vq-vae.ipynb)
 
-The repository consists of:
-- [VQVAE/VQVAE.ipynb]
+Code implementation of VQVAE could be available by the links:
+- [Application of VQVAE for new cancer areas (RoI) generation](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/VQVAE.ipynb) 
 
 Generated cancer areas (RoI) by VQVAE could be available via [https://drive.google.com/file/d/1qbetzi17qRLZVlcdogIPji8Db2JxmTs8/view?usp=drive_link]
 
 Generated dataset received by adding cancer areas to healthy CT images [https://drive.google.com/file/d/1XYxOn1BSTaMDdFLYI92zfqO6WDs2b8nU/view?usp=drive_link]
 
 ## DCGAN
+
+The Deep Convolutional Generative Adversarial Network (DCGAN) [1] is a type of GAN that leverages convolutional layers to generate realistic image data by training a generator to create images that can fool a discriminator. DCGAN is widely used for tasks requiring synthetic data generation due to its stability and high-quality outputs in image synthesis.
 
 ### References:
 
