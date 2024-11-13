@@ -21,7 +21,9 @@ The Vector Quantized Variational Autoencoder (VQVAE) [2] is a generative model t
 - [PyTorch VQVAE by Zalando Research](https://github.com/zalandoresearch/pytorch-vq-vae/blob/master/vq-vae.ipynb)
 
 Code implementation of VQVAE could be available by the links:
-- [Application of VQVAE for new cancer areas (RoI) generation](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/VQVAE.ipynb) 
+- [Application of VQVAE for new cancer areas (RoI) generation](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/VQVAE.ipynb)
+- [Adding RoI to healthy CT images](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/VQVAE%20adding%20generated.ipynb)
+- [Training UNet model with generated images](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/Unet_real_VAE.ipynb)
 
 Generated cancer areas (RoI) by VQVAE could be available via [https://drive.google.com/file/d/1qbetzi17qRLZVlcdogIPji8Db2JxmTs8/view?usp=drive_link]
 
