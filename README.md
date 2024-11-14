@@ -33,6 +33,14 @@ Generated dataset received by adding cancer areas to healthy CT images [Generate
 
 The Deep Convolutional Generative Adversarial Network (DCGAN) [1] is a type of GAN that leverages convolutional layers to generate realistic image data by training a generator to create images that can fool a discriminator. DCGAN is widely used for tasks requiring synthetic data generation due to its stability and high-quality outputs in image synthesis.
 
+Code implementation of DCGAN could be available by the links:
+- [Application of DCGAN for new cancer areas (RoI) generation](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/DCGAN/GAN.ipynb)
+- [Adding RoI to healthy CT images](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/DCGAN/GAN%20adding%20generated.ipynb)
+- [Training UNet model with generated images](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/DCGAN/Unet_real_GAN.ipynb)
+
+Generated cancer areas (RoI) by DCGAN could be available via [Generated cancer areas (RoI)](https://drive.google.com/file/d/1BstgTJukRupQi_W4lWAvE0wef7DeVmpV/view?usp=drive_link)
+Generated dataset received by adding cancer areas to healthy CT images [Generated dataset](https://drive.google.com/file/d/178HgBfhmp9b7QRA6PB-qOFafus1cHvR1/view?usp=drive_link)
+
 ### References:
 
 [1] Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv preprint arXiv:1511.06434.
