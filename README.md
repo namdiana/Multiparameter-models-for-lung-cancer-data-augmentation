@@ -25,9 +25,9 @@ Code implementation of VQVAE could be available by the links:
 - [Adding RoI to healthy CT images](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/VQVAE%20adding%20generated.ipynb)
 - [Training UNet model with generated images](https://github.com/namdiana/Multiparameter-models-for-lung-cancer-data-augmentation/blob/main/VQVAE/Unet_real_VAE.ipynb)
 
-Generated cancer areas (RoI) by VQVAE could be available via (Generated cancer areas (RoI))[https://drive.google.com/file/d/1qbetzi17qRLZVlcdogIPji8Db2JxmTs8/view?usp=drive_link]
+Generated cancer areas (RoI) by VQVAE could be available via [Generated cancer areas (RoI)](https://drive.google.com/file/d/1qbetzi17qRLZVlcdogIPji8Db2JxmTs8/view?usp=drive_link)
 
-Generated dataset received by adding cancer areas to healthy CT images (Generated dataset)[https://drive.google.com/file/d/1XYxOn1BSTaMDdFLYI92zfqO6WDs2b8nU/view?usp=drive_link]
+Generated dataset received by adding cancer areas to healthy CT images [Generated dataset](https://drive.google.com/file/d/1XYxOn1BSTaMDdFLYI92zfqO6WDs2b8nU/view?usp=drive_link)
 
 ## DCGAN
 
